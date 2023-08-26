@@ -7,7 +7,7 @@ class Review(BaseModel):
     """Represent a review.
 
     Attributes:
-        place_id (str): The Place id.
+        review_id (str): The review id.
         user_id (str): The User id.
         text (str): The text of the review.
     """
@@ -20,6 +20,6 @@ class Review(BaseModel):
                 **kwargs(keyword arg): dictionary
         """
         super().__init__(*args, **kwargs)
-        self.place_id = ""
+        self.review_id = ""
         self.user_id = ""
         self.text = ""
