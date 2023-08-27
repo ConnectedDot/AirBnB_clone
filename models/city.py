@@ -7,17 +7,17 @@ class City(BaseModel):
     """Represent a city.
 
     Attributes:
-        state_id (str): The state id.
+        city_id (str): The city id.
         name (str): The name of the city.
     """
 
     def __init__(self, *args, **kwargs):
         """
-            Initialize clss user with kwargs
+            Initialize class user with kwargs
             Args:
                 *args(positional arg): strings
                 **kwargs(keyword arg): dictionary
         """
         super().__init__(*args, **kwargs)
-        self.state_id = ""
+        self.city_id = ""
         self.name = ""
