@@ -7,7 +7,11 @@ class Review(BaseModel):
     """Represent a review.
 
     Attributes:
+<<<<<<< HEAD
         review_id (str): The Place id.
+=======
+        review_id (str): The review id.
+>>>>>>> b406b7cee534a20d3d74063293f16e666e8c8124
         user_id (str): The User id.
         text (str): The text of the review.
     """
